@@ -40,7 +40,7 @@ def analyze_particles(binary_image, intensity_image):
     return results
 
 # Specify the folder where all images are stored
-image_folder = "path/to/image_folder"
+image_folder = "/Users/avantikan/Downloads/analysis"
 
 # Load image stacks for each channel based on suffix
 green_stack = load_channel_images(image_folder, "g")
